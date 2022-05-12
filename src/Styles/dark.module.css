@@ -1,0 +1,21 @@
+
+
+.dakrConttent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    font-size: 1.5rem;
+}
+.buttonDark{
+    border:  none;
+
+    background-color: transparent;
+    
+    cursor: pointer;
+}
+.buttonDark:hover{
+    transform: translateY(-2px);
+}
